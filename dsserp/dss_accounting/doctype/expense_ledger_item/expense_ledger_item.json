@@ -1,0 +1,181 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-26 13:22:35.614191",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "account",
+  "custom_utr",
+  "custom_consumer_insurance__no",
+  "custom_section",
+  "custom_monthly_bimonthly",
+  "custom_due_date",
+  "custom_disconnection_dt",
+  "custom_reading__start_",
+  "custom_reading__end",
+  "column_break_udbo",
+  "custom_meeting_type",
+  "custom_consumption",
+  "custom_participant_count",
+  "custom_location",
+  "custom_remarks",
+  "custom_month",
+  "custom_year",
+  "custom_vehcile_no",
+  "custom_petrol_diesel",
+  "custom_claim_dt_from",
+  "custom_claim_dt_to"
+ ],
+ "fields": [
+  {
+   "fieldname": "account",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Account",
+   "options": "Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_udbo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_utr",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "UTR"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_consumer_insurance__no",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Consumer/ Insurance  No."
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_section",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Section"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_monthly_bimonthly",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Monthly/ Bi-Monthly"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_due_date",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Due Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_disconnection_dt",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Disconnection Dt."
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_reading__start_",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Reading @ Start"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_reading__end",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Reading @ End"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_meeting_type",
+   "fieldtype": "Check",
+   "label": "Meeting Type"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_consumption",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Consumption"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_participant_count",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Participant Count"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_location",
+   "fieldtype": "Check",
+   "label": "Location"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_remarks",
+   "fieldtype": "Check",
+   "label": "Remarks"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_month",
+   "fieldtype": "Check",
+   "label": "Month"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_year",
+   "fieldtype": "Check",
+   "label": "Year"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_vehcile_no",
+   "fieldtype": "Check",
+   "label": "Vehcile No."
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_petrol_diesel",
+   "fieldtype": "Check",
+   "label": "Petrol/ Diesel"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_claim_dt_from",
+   "fieldtype": "Check",
+   "label": "Claim Dt (From)"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_claim_dt_to",
+   "fieldtype": "Check",
+   "label": "Claim Dt (To)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-04-26 14:04:28.278836",
+ "modified_by": "Administrator",
+ "module": "DSS Accounting",
+ "name": "Expense Ledger Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
